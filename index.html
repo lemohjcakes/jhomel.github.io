@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <img src="profile.jpg" alt="Profile Image" class="profile-img">
+            <h1>Jhomel Santos</h1>
+            <p>Welcome to my personal webpage!</p>
+        </div>
+        <div class="nav">
+            <button onclick="showSection('about')">About</button>
+            <button onclick="showSection('contact')">Contact</button>
+        </div>
+        <div class="content">
+            <div id="about" class="section active">
+                <div class="about container">
+                    <div class="col-left">
+                        <div class="about-img">
+                            <img src="jhomel.jpg" alt="img">
+                        </div>
+                    </div>
+                    <div class="col-right">
+                        <h1 class="section-title">About <span>me</span></h1>
+                        <h2>Jhomel Santos from BSIT-2E</h2>
+                        <p>Hello, I'm Jhomel Santos, the creator of this website. I built it for fun and excitement, driven by my belief in the power of motivation. Rest assured, there's no illegal content here. I hope this site inspires you and brings as much joy as it did for me to create.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="contact" class="section">
+                <div class="contact container">
+                    <div>
+                        <h1 class="section-title">Contact <span>info</span></h1>
+                    </div>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+                            <div class="contact-info">
+                                <h1>Phone</h1>
+                                <h2>09510246584</h2>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+                            <div class="contact-info">
+                                <h1>Email</h1>
+                                <h2>jhomelsantos95@gmail.com</h2>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+                            <div class="contact-info">
+                                <h1>Address</h1>
+                                <h2>Brgy. Bobonon Alangalang Leyte</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
